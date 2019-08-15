@@ -14,5 +14,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         //Código qualquer adicionado        
+        //Alterado a partir do Git
     }
 }
