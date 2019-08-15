@@ -15,6 +15,6 @@ public class Player : MonoBehaviour
     {
         //Código qualquer adicionado
         //Alterado a partir do Git
-        //Vou inserir mais uma linha aqui
+        //Vou inserir mais uma linha
     }
 }
