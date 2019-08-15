@@ -13,7 +13,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Código qualquer adicionado        
+        //Código qualquer adicionado
         //Alterado a partir do Git
+        //Vou inserir mais uma linha aqui
     }
 }
