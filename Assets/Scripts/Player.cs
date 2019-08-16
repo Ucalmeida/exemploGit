@@ -5,6 +5,8 @@ using UnityEngine.Networking;
 
 public class Player : NetworkBehaviour
 {
+    public float moveSpeed = 0.2f;
+    public float moveRotation = 20;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,9 +15,10 @@ public class Player : NetworkBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        //Código qualquer adicionado
-        //Alterado a partir do Git
-        //Vou inserir mais uma linha aqui
+    {   
+        if (isLocalPlayer) {
+            transform.Translate(0, 0, Input.GetAxis("Vertical") * moveSpeed);
+            transform.Rotate(0, Input.GetAxis("Horizontal") * moveRotation, 0);
+        }
     }
 }
